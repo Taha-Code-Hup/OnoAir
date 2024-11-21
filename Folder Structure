@@ -1,0 +1,16 @@
+OnoAir/
+├── index.html
+├── css/
+│   ├── style.css
+├── js/
+│   ├── main.js
+│   ├── admin.js
+│   ├── user.js
+├── admin/
+│   ├── manage_flights.html
+│   ├── manage_destinations.html
+├── user/
+│   ├── search_flights.html
+│   ├── book_flight.html
+│   ├── my_bookings.html
+│   ├── help.html

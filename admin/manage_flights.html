@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Flights</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">OnoAir</a></h1> <!-- Link back to home page -->
+    </header>
+    <main>
+        <h2>Manage Flights</h2>
+        <table id="flightsTable">
+            <thead>
+                <tr>
+                    <th>Flight Number</th>
+                    <th>Origin</th>
+                    <th>Destination</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <h3>Add a Flight</h3>
+        <form id="addFlightForm">
+            <input type="text" name="flightNo" placeholder="Flight Number" required>
+            <input type="text" name="origin" placeholder="Origin" required>
+            <input type="text" name="destination" placeholder="Destination" required>
+            <input type="date" name="date" required>
+            <button type="submit">Add Flight</button>
+        </form>
+    </main>
+    <footer>
+        <a href="../user/help.html">Help</a>
+    </footer>
+
+    <script src="../js/admin.js"></script>
+</body>
+</html>

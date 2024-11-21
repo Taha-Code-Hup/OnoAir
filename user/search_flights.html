@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Flights</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">OnoAir</a></h1> <!-- Link back to home page -->
+    </header>
+    <main>
+        <h2>Search Flights</h2>
+        <form id="searchForm">
+            <label for="origin">Origin:</label>
+            <select id="origin" name="origin" required>
+                <option value="">Select Origin</option>
+                <!-- Options will be added dynamically -->
+            </select>
+
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination" required>
+                <option value="">Select Destination</option>
+                <!-- Options will be added dynamically -->
+            </select>
+
+            <button type="submit">Search</button>
+        </form>
+
+        <h3>Available Flights</h3>
+        <ul id="flightList"></ul>
+    </main>
+    <footer>
+        <a href="../user/help.html">Help</a>
+    </footer>
+
+    <script src="../js/user.js"></script> <!-- Link to user JS -->
+</body>
+</html>
